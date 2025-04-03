@@ -7,7 +7,7 @@ spring:
     config:
       uri: http://config-service:8889/
       discovery:
-        serviceId: config-service
+        serviceId: config-server
       enabled: true
     gateway:
       globalcors:
